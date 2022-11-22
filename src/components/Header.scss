@@ -1,0 +1,34 @@
+* {
+    text-transform: uppercase;
+}
+
+h1,
+span {
+    font-size: 2.3rem;
+    font-weight: 900;
+    line-height: 1ch;
+
+    &.yellow {
+        color:#ffc500;
+    }
+
+    &.subtitle {
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+}
+
+div.me-auto {
+    gap: 3rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    
+    & a {
+        color: #fff;
+    }
+
+    a:hover {
+        color:#ffc500;
+        transition: 0.5s;
+    }
+}
