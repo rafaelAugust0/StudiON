@@ -5,7 +5,7 @@ import './Header.scss'
 
 const Header = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg">
             <Container>
                     <Navbar.Brand href="/">
                         <div className="d-flex flex-column">
