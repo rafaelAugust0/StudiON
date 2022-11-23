@@ -1,0 +1,15 @@
+section.counter {
+    background-color: #ffc500;
+    height: 35vh;
+
+    & h3 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #fff;
+
+        & span {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    }
+}
