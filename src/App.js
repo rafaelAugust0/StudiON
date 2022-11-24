@@ -5,6 +5,7 @@ import './App.scss'
 import Header from './components/Header';
 import Carousel from './components/Carousel'
 import Counter from './components/Counter'
+import Institutional from "./components/Institutional";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Carousel/>
       <Counter/>
+      <Institutional/>
     </div>
   );
 }
