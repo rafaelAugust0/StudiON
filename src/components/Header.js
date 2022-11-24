@@ -14,7 +14,7 @@ const Header = () => {
                         </div>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <div>
+                    <div className="d-flex text-center width">
                         <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="me-auto py-3">
                                         <Nav.Link href="/empresa">Empresa</Nav.Link>
