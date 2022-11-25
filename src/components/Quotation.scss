@@ -1,0 +1,58 @@
+section.quote {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    & div.description {
+        width: 50%;
+        height: 450px;
+        background-color: #fff;
+        
+        & h6 {
+            font-size: 0.9rem;
+            letter-spacing: 0.2rem;
+        }
+
+        & h2 {
+            font-size: 5rem;
+            font-weight: 700;
+            line-height: 5rem;
+
+            & span.title {
+                font-size: 5rem;
+                font-weight: 700;
+                line-height: 5rem;
+                color: #ffc500;
+            }
+        }
+
+        button {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            float: left;
+            color: #333;
+            border: 2px solid #333;
+            transition: 1s;
+        }
+    }
+    @media screen and (max-width:902px) {
+        & div.description {
+            width: unset;
+            height: unset;
+
+            & h2 {
+                font-size: 3rem;
+                font-weight: 700;
+                line-height: 3rem;
+    
+                & span.title {
+                    font-size: 3rem;
+                    font-weight: 700;
+                    line-height: 3rem;
+                    color: #ffc500;
+                }
+            }
+        }
+    }
+}
