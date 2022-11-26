@@ -1,0 +1,65 @@
+footer {
+    background-color: #000;
+
+
+    & span.subtitle {
+        text-align: right;
+    }
+
+    & span.news {
+        font-size: 0.7rem;
+        font-weight: 400;
+        line-height: 2ch;
+        text-transform: uppercase;
+    }
+
+    & .form-newsletter {
+        width: 300px;
+
+        & input#formBasicEmail.form-control{
+            border-radius: unset;
+            border: none;
+            height: 100%;
+            background-color: #ffc500;
+            color: #000;
+            font-size: 0.9rem;
+            text-transform: lowercase;
+
+            &:focus {
+                outline: 0;
+                box-shadow: 0 0 0 0;
+            }
+
+            &::placeholder {
+                color: #000;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    & button.btn.btn-primary {
+        border-radius: unset;
+        border: none;
+        background-color: #fff;
+    }
+
+    & hr {
+        color: #fff;
+    }
+
+    & small {
+        color: #fff;
+        text-transform: none;
+        font-size: 0.7rem;
+    }
+
+    @media screen and (max-width:902px) {
+        & div.logo {
+            margin: auto auto 1rem auto;
+        }
+
+        & div.form {
+            margin-bottom: 2rem;
+        }
+    }
+}
