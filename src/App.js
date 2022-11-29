@@ -1,24 +1,27 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
 
 import './App.scss'
 
 import Header from './components/Header';
-import Carousel from './components/Carousel'
-import Counter from './components/Counter'
-import Institutional from "./components/Institutional";
-import Quotation from './components/Quotation';
+
+import Home from './pages/Home'
+import Empresa from "./pages/Empresa";
+
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Carousel/>
-      <Counter/>
-      <Institutional/>
-      <Quotation/>
-      <Footer/>
-    </div>
+    <>
+        <Header/>
+
+        <Routes>
+          <Route path="/" exact element={<Home/>}/>
+          <Route path="/empresa" element={<Empresa/>}/>
+        </Routes>
+
+        <Footer/>
+    </>
   );
 }
 
