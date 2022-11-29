@@ -1,0 +1,87 @@
+div.events {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    & h1 {
+        font-size: 7.5rem;
+        font-weight: 700;
+        text-transform: lowercase;
+        color: #ffc500;
+        float: right;
+    }
+
+    & p {
+        font-size: 0.9rem;
+        line-height: 1.8rem;
+        text-transform: none;
+        color: #fff;
+        float: right;
+        width: 50%;
+    }
+
+    @media screen and (max-width:902px) {
+
+        & h1 {
+            font-size: 4rem;
+            float: none;
+            text-align: center;
+        }
+
+        & p {
+            float: none;
+            text-align: center;
+            width: 100%;
+        }
+}
+}
+
+.list-event {
+
+    & img {
+        width: 70%;
+    }
+
+    & h4 {
+        font-size: 1.2rem;
+        letter-spacing: 0.2rem;
+        font-weight: 700;
+        color: #ffc500;
+    }
+
+    & h5 {
+        font-size: 0.9rem;
+        color: #000;
+        font-weight: 700;
+    }
+
+    & h6 {
+        font-size: 0.7rem;
+        font-weight: 700;
+        color: #000;
+    }
+
+    & p {
+        font-size: 1rem;
+        text-transform: none;
+    }
+
+    button {
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        color: #333;
+
+        &:hover {
+            border-color: #333;
+            color: #333;
+            background-color: #fff;
+            transition: 0.5s;
+        }
+
+        &.moreInfo {
+            font-weight: 400;
+        }
+    }
+}

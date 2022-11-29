@@ -7,6 +7,7 @@ import Header from './components/Header';
 
 import Home from './pages/Home'
 import Empresa from "./pages/Empresa";
+import Eventos from "./pages/Eventos";
 
 import Footer from './components/Footer';
 
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home/>}/>
           <Route path="/empresa" element={<Empresa/>}/>
+          <Route path="/eventos" element={<Eventos/>}/>
         </Routes>
 
         <Footer/>
