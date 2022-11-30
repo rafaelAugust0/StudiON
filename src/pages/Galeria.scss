@@ -1,0 +1,47 @@
+section.gallery {
+
+    background-color: #000;
+
+        & div.gallery {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+        & h1 {
+            font-size: 7.5rem;
+            font-weight: 700;
+            text-transform: lowercase;
+            color: #ffc500;
+            float: right;
+        }
+    
+        & p {
+            font-size: 0.9rem;
+            line-height: 1.8rem;
+            text-transform: none;
+            color: #fff;
+            float: right;
+            width: 50%;
+        }
+    
+        @media screen and (max-width:902px) {
+    
+            & h1 {
+                font-size: 4rem;
+                float: none;
+                text-align: center;
+            }
+    
+            & p {
+                float: none;
+                text-align: center;
+                width: 100%;
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+}
