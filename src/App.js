@@ -9,6 +9,7 @@ import Home from './pages/Home'
 import Empresa from "./pages/Empresa";
 import Eventos from "./pages/Eventos";
 import Galeria from "./pages/Galeria";
+import Depoimentos from "./pages/Depoimentos";
 
 import Footer from './components/Footer';
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/empresa" element={<Empresa/>}/>
           <Route path="/eventos" element={<Eventos/>}/>
           <Route path="/galeria" element={<Galeria/>}/>
+          <Route path="/depoimentos" element={<Depoimentos/>}/>
         </Routes>
 
         <Footer/>
