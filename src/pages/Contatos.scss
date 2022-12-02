@@ -1,0 +1,101 @@
+section.contact {
+
+    background-color: #000;
+
+    div.contact {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+        & h1 {
+            font-size: 7.5rem;
+            font-weight: 700;
+            text-transform: lowercase;
+            color: #ffc500;
+            float: right;
+        }
+    
+        & p {
+            font-size: 0.9rem;
+            line-height: 1.8rem;
+            text-transform: none;
+            color: #fff;
+            float: right;
+            width: 50%;
+        }
+    
+        @media screen and (max-width:902px) {
+    
+            & h1 {
+                font-size: 4rem;
+                float: none;
+                text-align: center;
+            }
+    
+            & p {
+                float: none;
+                text-align: center;
+                width: 100%;
+            }
+        }
+
+        &__infos {
+            & h3 {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #ffc500;
+                text-transform: none;
+            }
+
+            & span {
+                font-size: 0.9rem;
+                font-weight: 400;
+                text-transform: none;
+            }
+
+            & div.form-contact {
+                & label {
+                    color: #fff;
+                    text-transform: none;
+                }
+
+                & input {
+                    background-color: #ffc500;
+                    color: #000;
+                    font-weight: 700;
+                    border: none;
+                    text-transform: none;
+
+                    &#formBasicEmail.form-control {
+                        text-transform: lowercase;
+                    }
+
+                    &:focus {
+                        box-shadow: 0 0 0 0;
+                    }
+                }
+
+                & textarea.form-control {
+                    background-color: #ffc500;
+                    text-transform: none;
+                    color: #000;
+                    font-weight: 700;
+                    border: none;
+                }
+
+                & button {
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    float: right;
+
+                    &:hover {
+                        border: 2px solid #fff;
+                        background-color: #ffc500;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}
