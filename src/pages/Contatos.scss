@@ -1,7 +1,5 @@
 section.contact {
 
-    background-color: #000;
-
     div.contact {
         background-size: cover;
         background-position: center;
@@ -41,10 +39,13 @@ section.contact {
         }
 
         &__infos {
+
+            background-color: #fff;
+
             & h3 {
                 font-size: 1.5rem;
                 font-weight: 700;
-                color: #ffc500;
+                color: #333;
                 text-transform: none;
             }
 
@@ -52,17 +53,34 @@ section.contact {
                 font-size: 0.9rem;
                 font-weight: 400;
                 text-transform: none;
+                color: #333;
+            }
+        }
+
+        &__form {
+            background-color: #000;
+
+            & div.container {
+                width: 70%;
             }
 
             & div.form-contact {
+
+                & h3 {
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: #ffc500;
+                    text-transform: none;
+                }
+
                 & label {
                     color: #fff;
                     text-transform: none;
                 }
 
                 & input {
-                    background-color: #ffc500;
-                    color: #000;
+                    background-color: #333;
+                    color: #fff;
                     font-weight: 700;
                     border: none;
                     text-transform: none;
@@ -77,11 +95,12 @@ section.contact {
                 }
 
                 & textarea.form-control {
-                    background-color: #ffc500;
+                    background-color: #333;
                     text-transform: none;
-                    color: #000;
+                    color: #fff;
                     font-weight: 700;
                     border: none;
+                    box-shadow: 0 0 0 0;
                 }
 
                 & button {
@@ -90,10 +109,19 @@ section.contact {
                     float: right;
 
                     &:hover {
-                        border: 2px solid #fff;
-                        background-color: #ffc500;
+                        background-color: #fff;
                         transition: 0.5s;
                     }
+                }
+            }
+
+            @media screen and (max-width:902px) {
+                & div.container {
+                    width: 100%;
+                }
+
+                & button {
+                    width: 100%;
                 }
             }
         }
