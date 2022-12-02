@@ -79,6 +79,11 @@ const Contato = () => {
                         </Col>
                     </div>
                 </div>
+                <div className="maprouter">
+                    <iframe title="gmaps"
+                        src="https://maps.google.com/maps?width=1285&amp;height=400&amp;hl=en&amp;q=Rua Miguel Daux, 129 - Coqueiros Florianópolis / SC&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                    </iframe>
+                </div>
         </section>
     )
 }
