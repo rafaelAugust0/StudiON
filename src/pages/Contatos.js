@@ -70,7 +70,11 @@ const Contato = () => {
                                             <textarea className="form-control" rows="5"/>
                                         </Form.Group>
 
-                                        <Button variant="warning" className="my-3 px-5" size="lg">
+                                        <Button onClick={() => alert('Formulário enviado com sucesso!') }
+                                        variant="warning" 
+                                        className="my-3 px-5" 
+                                        size="lg" 
+                                        type="reset">
                                             Enviar
                                         </Button>
                                     </Form>

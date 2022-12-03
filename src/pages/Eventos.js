@@ -9,6 +9,7 @@ import event1 from '../images/event1.jpg';
 import event2 from '../images/event2.jpg';
 import event3 from '../images/event3.jpg';
 import event4 from '../images/event4.jpg';
+import { Link } from "react-router-dom";
 
 function CustomToggle({ children, eventKey }) {
         const decoratedOnClick = useAccordionButton(eventKey, () =>
@@ -63,9 +64,11 @@ const Eventos = () => {
                         </p>
                     </Col>
                     <Col>
-                        <Button variant="warning" size="lg" className="my-3">
-                            Comprar ingresso
-                        </Button>
+                        <Link to='/contatos'>
+                            <Button variant="warning" size="lg" className="my-3">
+                                Comprar ingresso
+                            </Button>
+                        </Link>
                         <Accordion>
                             <Card>
                                 <Card.Header>
@@ -112,9 +115,11 @@ const Eventos = () => {
                         </p>
                     </Col>
                     <Col>
-                        <Button variant="warning" size="lg" className="my-3">
-                            Comprar ingresso
-                        </Button>
+                        <Link to='/contatos'>
+                            <Button variant="warning" size="lg" className="my-3">
+                                Comprar ingresso
+                            </Button>
+                        </Link>
                         <Accordion>
                             <Card>
                                 <Card.Header>
@@ -161,9 +166,11 @@ const Eventos = () => {
                         </p>
                     </Col>
                     <Col>
-                        <Button variant="warning" size="lg" className="my-3">
-                            Comprar ingresso
-                        </Button>
+                        <Link to='/contatos'>
+                            <Button variant="warning" size="lg" className="my-3">
+                                Comprar ingresso
+                            </Button>
+                        </Link>
                         <Accordion>
                             <Card>
                                 <Card.Header>
@@ -210,9 +217,11 @@ const Eventos = () => {
                         </p>
                     </Col>
                     <Col>
-                        <Button variant="warning" size="lg" className="my-3">
-                            Comprar ingresso
-                        </Button>
+                        <Link to='/contatos'>
+                            <Button variant="warning" size="lg" className="my-3">
+                                Comprar ingresso
+                            </Button>
+                        </Link>
                         <Accordion>
                             <Card>
                                 <Card.Header>

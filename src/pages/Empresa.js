@@ -59,7 +59,9 @@ const Empresa = () => {
             <Container className="company__video my-5">
                 <Row>
                     <Col>
-                        <img src={video} alt="video"/>
+                        <a href="https://www.youtube.com/">
+                            <img src={video} alt="video"/>
+                        </a>
                     </Col>
                 </Row>
             </Container>
