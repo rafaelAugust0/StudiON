@@ -65,7 +65,7 @@ const Eventos = () => {
                     </Col>
                     <Col>
                         <Link to='/contatos'>
-                            <Button variant="warning" size="lg" className="my-3">
+                            <Button variant="warning" size="lg" className="my-3" onClick="scroll(0,0)">
                                 Comprar ingresso
                             </Button>
                         </Link>
@@ -116,7 +116,7 @@ const Eventos = () => {
                     </Col>
                     <Col>
                         <Link to='/contatos'>
-                            <Button variant="warning" size="lg" className="my-3">
+                            <Button variant="warning" size="lg" className="my-3" onClick="scroll(0,0)">
                                 Comprar ingresso
                             </Button>
                         </Link>
@@ -167,7 +167,7 @@ const Eventos = () => {
                     </Col>
                     <Col>
                         <Link to='/contatos'>
-                            <Button variant="warning" size="lg" className="my-3">
+                            <Button variant="warning" size="lg" className="my-3" onClick="scroll(0,0)">
                                 Comprar ingresso
                             </Button>
                         </Link>
@@ -218,7 +218,7 @@ const Eventos = () => {
                     </Col>
                     <Col>
                         <Link to='/contatos'>
-                            <Button variant="warning" size="lg" className="my-3">
+                            <Button variant="warning" size="lg" className="my-3" onClick="scroll(0,0)">
                                 Comprar ingresso
                             </Button>
                         </Link>

@@ -17,7 +17,7 @@ const Quotation = () => {
                         <h6 className="pt-5">Você informa a temática  e nós planejamos um evento com tecnologia e</h6>
                         <h2 className="pt-3 pb-5"><span className="title d-block">Muito +</span> diversão</h2>
                         <Link to='/contatos'>
-                            <Button variant="outline-warning" size="lg" className="my-3">
+                            <Button variant="outline-warning" size="lg" className="my-3" onClick="scroll(0,0)">
                                 Fazer cotação
                             </Button>
                         </Link>

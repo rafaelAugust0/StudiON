@@ -29,7 +29,7 @@ const Footer = () => {
                                     <Form.Control type="email" placeholder="Digite seu email" />
                                 </Form.Group>
                                 
-                                <Button variant="primary" type="submit">
+                                <Button variant="primary" type="reset" onClick={() => alert('Cadastro realizado com sucesso!') } >
                                     <img src={sendForm} alt="send form"/>
                                 </Button>
                             </Form>
