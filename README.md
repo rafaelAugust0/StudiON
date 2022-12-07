@@ -21,11 +21,11 @@ You may also see any lint errors in the console.
 
 ### Desktop preview
 
-![App Screenshot](https://uploaddeimagens.com.br/images/004/249/546/full/Screenshot_from_2022-12-03_19-55-20.png?1670108146)
+![App Screenshot](https://i.imgur.com/8d1eqdA.png)
 
 ### Mobile preview
 
-![App Screenshot](https://uploaddeimagens.com.br/images/004/249/550/full/Screenshot_from_2022-12-03_19-58-53.png?1670108356)
+![App Screenshot](https://i.imgur.com/IcAwIBQ.png)
 
 ## Color Reference
 
